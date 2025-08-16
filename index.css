@@ -1,0 +1,100 @@
+:root{
+    /* universal */
+    --bottom-horn: #fe4100;
+    --middle-horn: #ff9000;
+    --top-horn: #feba29;
+    --skin: #c4c4c4;
+    /* main */
+    --ody: #e8bd4d;
+    --anetzi: #656d0a;
+    --sylvia: #066b65;
+    --nessex: #6b228b;
+    --evryin: #930349;
+    /* cwrp */
+    --libpon: #390e15;
+    --mira: #6d3003;
+    --copias: #babf00;
+    --cwrp-anetzi: #649808;
+    --june: #329c40;
+    --strama: #4e9d64;
+    --blotte: #007fd0;
+    --zatrot: #01afec;
+    --ren: #9966ff;
+    --teo: #3a3a3a;
+    --cwrp-evryin: #800063;
+    /* cwrp side */
+    --cadere: #a97b03;
+    --kraska: #049a90;
+    --ram: #2d5091;
+    --snobby: #ad6dbe;
+}
+h1{
+    font-size: 2.75em;
+    margin: 0.75em;
+}
+h1 > span{
+    font-size: 0.5em;
+}
+.cwrp{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.universal{
+    width: auto;
+    height: auto;
+}
+body{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: courier;
+    font-weight: bold;
+    background-color: rgb(231, 247, 255);
+}
+summary{
+    font-size: 2em;
+    margin: 1.5em 0;
+}
+button{
+    border-radius: 7px;
+    border: none;
+    padding: 2em;
+    font-family: 'courier new';
+    font-size: 0.9em;
+    width: 13em;
+    height: 13em;
+    transition: all 0.3s ease-in-out;
+    margin: 1em 1em;
+}
+button:hover{
+    font-size: 0.95em;
+    transition: all 0.3s ease-in-out;
+}
+#name{
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 412px) {
+    body{
+    display: block;
+    }
+    h1{
+        padding: 0.5em 0.25em;
+    }
+    button{
+    border-radius: 7px;
+    border: none;
+    padding: 2em 3em;
+    font-family: 'courier new';
+    font-size: 0.75em;
+    width: auto;
+    height: auto;
+    transition: all 0.3s ease-in-out;
+    margin: 1em 1em;
+    }
+    button:hover{
+    font-size: 0.8em;
+    transition: all 0.3s ease-in-out;
+    }
+}
